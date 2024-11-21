@@ -1,4 +1,4 @@
-## Overview - Barcelonw PUG Nov-2024 - Vectors Storage Challenges
+## Overview - Barcelona PUG Nov-2024 - Vectors Storage Challenges
 
 I've added details for the pgbench euclidean_product with "full vactor (int32)"  tests which I presented at the Barcelona Postgres User Goup (PUG) in November 2024. 
 
@@ -18,9 +18,6 @@ There are two appendix
 
 Finally the [slide-deck found here](slideshare-BCN-PUG-Nov-2024-vectors-storage-challenges.pdf) 
 
-
-
-Finally here is a [link to the slides](vector-storage-challenges.md)
 
 ## Setup
 
