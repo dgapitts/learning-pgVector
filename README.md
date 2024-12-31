@@ -20,3 +20,24 @@ and this lead to
 ### Tests
 
 * [Barcelona PUG Nov-2024 - Vectors Storage Challenges](docs/100-Barcelona_PUG_Nov-2024_Vectors-Storage-Challenges.md)
+
+
+### Brew notes
+
+* first the `bin/step0-base-install.sh` work on linux and macosx, including pg installed via brew
+* brew service commands - note `info` instead of `status`
+
+```
+brew services info postgresql@16
+brew services start postgresql@16
+brew services restart postgresql@16
+brew services stop postgresql@16
+```
+
+you can all use `pg_ctl`
+```
+/opt/homebrew/opt/postgresql@16/bin/pg_ctl stop -D /opt/homebrew/var/postgresql@16
+```
+
+
+
